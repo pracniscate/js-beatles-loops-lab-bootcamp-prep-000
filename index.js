@@ -21,7 +21,9 @@ function johnLennonFacts(array) {
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-  
+
+    while ()
+  return ;
 }
 
 /* returns an array of 'I love the Beatles!' 8 times when passed the parameter 7
