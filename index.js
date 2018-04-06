@@ -7,7 +7,7 @@ function theBeatlesPlay(musicians, instruments) {
   const beatleSentence = [];
   
   for (let i = 0; i < 1; i++) {
-  beatleSentence.push(`${musicians[0]} plays ${instruments[0]}`);
+  beatleSentence.push(`${musicians[i]} plays ${instruments[i]}`);
 }
   return beatleSentence;
 }
