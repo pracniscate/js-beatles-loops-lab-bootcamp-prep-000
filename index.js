@@ -8,5 +8,6 @@ function theBeatlesPlay(musicians, instruments) {
 for (let i = 0; i < 4; i++) {
   console.log(musicians[0] + instruments[0]);
 }
+beatleSentence.push(console.log);
 return beatleSentence;
 }
