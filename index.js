@@ -12,3 +12,6 @@ beatleSentence.push(console.log);
 return beatleSentence;
 }
 
+function iLoveTheBeatles(n) {
+  var
+}
