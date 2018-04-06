@@ -22,10 +22,10 @@ function johnLennonFacts(array) {
   "He hated the sound of his own voice"
 ];
   
-    
+    i = 0;
     while (i < 4) {
       array.push(`${facts[i]}!!!`);
-
+      i++;
     }
   return facts;
 }
