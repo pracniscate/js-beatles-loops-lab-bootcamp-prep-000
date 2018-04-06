@@ -14,7 +14,9 @@ function theBeatlesPlay(musicians, instruments) {
 
 // returns an array of strings with exclamation points
 
-function johnLennonFacts()
+function johnLennonFacts(facts) {
+  
+}
 
 /* returns an array of 'I love the Beatles!' 8 times when passed the parameter 7
 returns an array of 'I love the Beatles!' once when passed the parameter 17 */
