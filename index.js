@@ -12,6 +12,9 @@ function theBeatlesPlay(musicians, instruments) {
   return beatleSentence;
 }
 
+/* returns an array of 'I love the Beatles!' 8 times when passed the parameter 7
+returns an array of 'I love the Beatles!' once when passed the parameter 17 */
+
 function iLoveTheBeatles(n) {
   const array = [];
   
