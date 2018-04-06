@@ -3,5 +3,5 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay(musicians, instruments) {
 // returns an array of strings containing what instruments each musician plays
-  var fullSentence = [new Array()];
+  var beatleSentence = [];
 }
