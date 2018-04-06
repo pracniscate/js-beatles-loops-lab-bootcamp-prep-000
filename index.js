@@ -17,5 +17,6 @@ function iLoveTheBeatles(n) {
   
     do {
       array.push("I love the Beatles!");
+      n++;
     }
 }
