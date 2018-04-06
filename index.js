@@ -7,9 +7,9 @@ function theBeatlesPlay(musicians, instruments) {
   const beatleSentence = [];
   
   for (let i = 0; i < 1; i++) {
-  beatleSentence.push(`${musicians[1]} plays ${instruments[1]}`);
+  beatleSentence.push(`${musicians[0]} plays ${instruments[0]}`);
 }
-return beatleSentence;
+  return beatleSentence;
 }
 
 function iLoveTheBeatles(n) {
@@ -20,5 +20,5 @@ function iLoveTheBeatles(n) {
       n++;
     } while(n < 15);
     
-return array;
+  return array;
 }
