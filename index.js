@@ -22,7 +22,7 @@ function johnLennonFacts(array) {
   "He hated the sound of his own voice"
 ];
 
-    while ()
+    while (i < facts.length)
   return ;
 }
 
