@@ -26,7 +26,7 @@ function johnLennonFacts(array) {
       array.push(`${facts[i]}!!!`);
       i++;
     }
-  return ;
+  return array;
 }
 
 /* returns an array of 'I love the Beatles!' 8 times when passed the parameter 7
