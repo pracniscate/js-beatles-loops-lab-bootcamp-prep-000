@@ -23,7 +23,7 @@ function johnLennonFacts(array) {
 ];
 
     while (i < facts.length) {
-      array.push(`${facts}!!!`)
+      array.push(`${facts[i]}!!!`);
     }
   return ;
 }
