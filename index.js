@@ -4,7 +4,7 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 // returns an array of strings containing what instruments each musician plays
 
 function theBeatlesPlay(musicians, instruments) {
-  const beatleSentence = [];
+const beatleSentence = [];
   
   for (let i = 0; i < 4; i++) {
   beatleSentence.push(`${musicians[i]} plays ${instruments[i]}`);
@@ -15,18 +15,13 @@ function theBeatlesPlay(musicians, instruments) {
 // returns an array of strings with exclamation points
 
 function johnLennonFacts(facts) {
-  const array = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
-  
-    i = 0;
-    while (i < 4) {
-      array.push(`${facts[i]}!!!`);
-      i++;
-    }
+const array = [];
+
+  let i = 0;
+  while (i < facts.length) {
+    array.push(`${facts[i]}!!!`);
+    i++;
+  }
   return array;
 }
 
@@ -34,7 +29,7 @@ function johnLennonFacts(facts) {
 returns an array of 'I love the Beatles!' once when passed the parameter 17 */
 
 function iLoveTheBeatles(n) {
-  const array = [];
+const array = [];
   
     do {
       array.push("I love the Beatles!");
