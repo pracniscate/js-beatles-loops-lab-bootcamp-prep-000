@@ -14,8 +14,8 @@ function theBeatlesPlay(musicians, instruments) {
 
 // returns an array of strings with exclamation points
 
-function johnLennonFacts(array) {
-  const facts = [
+function johnLennonFacts(facts) {
+  const array = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
@@ -27,7 +27,7 @@ function johnLennonFacts(array) {
       array.push(`${facts[i]}!!!`);
       i++;
     }
-  return facts;
+  return array;
 }
 
 /* returns an array of 'I love the Beatles!' 8 times when passed the parameter 7
