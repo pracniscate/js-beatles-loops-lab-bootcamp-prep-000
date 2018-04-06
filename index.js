@@ -15,12 +15,7 @@ function theBeatlesPlay(musicians, instruments) {
 // returns an array of strings with exclamation points
 
 function johnLennonFacts(array) {
-  const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
+  const facts = [];
     let i = 0;
     while (i < facts.length) {
       array.push(`${facts[i]}!!!`);
