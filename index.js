@@ -9,7 +9,6 @@ function theBeatlesPlay(musicians, instruments) {
   for (let i = 0; i < 1; i++) {
   beatleSentence.push(`${musicians[0]} plays ${instruments[0]}`);
 }
-beatleSentence.push(console.log);
 return beatleSentence;
 }
 
